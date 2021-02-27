@@ -1,12 +1,12 @@
 import Head from "next/head";
 import CountdownProvider from "contexts/Countdown";
 
-import Sidebar from "../../components/Sidebar";
-import ExperienceBar from "../../components/ExperienceBar";
-import Profile from "../../components/Profile";
-import CompletedChallenges from "../../components/CompletedChallenges";
-import Countdown from "../../components/Countdown";
-import ChallengeBox from "../../components/ChallengeBox";
+import Sidebar from "components/Sidebar";
+import ExperienceBar from "components/ExperienceBar";
+import Profile from "components/Profile";
+import CompletedChallenges from "components/CompletedChallenges";
+import Countdown from "components/Countdown";
+import ChallengeBox from "components/ChallengeBox";
 
 import { Container } from "./styles";
 

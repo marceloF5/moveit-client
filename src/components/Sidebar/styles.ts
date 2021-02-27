@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components'
-import { HiOutlineLightBulb } from 'react-icons/hi'
+import styled, { css } from "styled-components";
+import { HiOutlineLightBulb } from "react-icons/hi";
 
 export const Container = styled.div`
     position: fixed;
@@ -39,8 +39,8 @@ export const Container = styled.div`
             `}
         }
     }
-`
+`;
 
 export const LightSwitch = styled(HiOutlineLightBulb)`
     cursor: pointer;
-`
+`;

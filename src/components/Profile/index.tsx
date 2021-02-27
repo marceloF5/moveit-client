@@ -1,9 +1,9 @@
-import { useChallenges } from 'contexts/Challenges'
+import { useChallenges } from "contexts/Challenges";
 
-import { Container } from './styles'
+import { Container } from "./styles";
 
 const Profile = () => {
-    const { level } = useChallenges()
+    const { level } = useChallenges();
 
     return (
         <Container>
@@ -20,7 +20,7 @@ const Profile = () => {
                 </p>
             </div>
         </Container>
-    )
-}
+    );
+};
 
-export default Profile
+export default Profile;

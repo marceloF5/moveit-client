@@ -1,9 +1,9 @@
 import { useState, ReactNode, useEffect } from "react";
 import Cookies from "js-cookie";
 
+import LevelUpModal from "components/LevelUpModal";
 import ChallengesContext, { IChallenge } from "./ChallengesContext";
 import challenges from "../../../challenges.json";
-import LevelUpModal from "components/LevelUpModal";
 
 interface IChallengesProviderProp {
     children: ReactNode;
